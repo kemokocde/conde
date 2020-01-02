@@ -1,0 +1,150 @@
+
+
+@media(max-width:  370px)
+{
+
+.tail320{
+  margin: 0px; 
+  padding: 0px;
+}
+}
+
+header .row {
+  margin-top:50px;
+}
+
+header h1 {
+  text-align:center;
+  color:#fff;
+  font-family:'Bangers';
+  font-size:81px;
+  text-shadow:1px 1px 1px #000;
+}
+
+header p {
+  text-align:center;
+  color:#fff;
+  font-size:32px;
+  text-shadow:1px 1px 1px #000;
+}
+
+
+
+
+
+
+body {
+          padding-top: 50px;
+          position: relative;
+      }
+      
+      pre {
+          tab-size: 8;
+      }
+
+
+
+
+
+
+
+
+
+
+     
+    
+  
+     
+
+
+
+
+
+
+      @media screen and (min-width: 550px)  {
+          .side-collapse-container1{
+              width:100%;
+              position:relative;
+              left:0;
+              transition:left .4s;
+          }
+          .side-collapse-container1.out{
+            width: 200px;
+              
+          }
+          .side-collapse1 {
+              top:50px;
+              bottom:0;
+              left:0;
+              width:0%;
+              position:fixed;
+              overflow:hidden;
+              transition:width .4s;
+          }
+          .side-collapse1.in {
+              width:0;
+          }
+      }
+       @media screen and (max-width: 550px)  {
+          .side-collapse-container1{
+              width:100%;
+              position:relative;
+              left:0;
+              transition:right .4s;
+          }
+          .side-collapse-container1.out{
+              
+          }
+          .side-collapse1 {
+              top:0;
+              bottom:0;
+              left:0;
+              right: 0;
+              width:100%;
+              position:fixed;
+              overflow:hidden;
+              transition:width .4s;
+          }
+          .side-collapse1.in {
+              width:0;
+          }
+      }
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+

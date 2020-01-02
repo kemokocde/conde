@@ -1,0 +1,23 @@
+          .side-collapse-container{
+              width:100%;
+              position:relative;
+              left:0;
+              
+          }
+          .side-collapse-container.out{
+              
+          }
+          .side-collapse {
+              top:50px;
+              bottom:0;
+              left:0;
+              width:180px;
+             
+            
+          }
+          .side-collapse.in {
+              width:0;
+              display: none;
+          }
+      
+

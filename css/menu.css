@@ -1,0 +1,33 @@
+#navcol-1  li  a:hover {
+  color: white;
+  background-color: rgb(32,41,64);
+}
+#navcol-1 a{
+  background-color: rgb(32,41,64);
+  color: rgb(115,149,163);
+}
+ #navcol-1  li  a:focus{
+    background-color: rgb(27,33,54);
+}
+ #navcol-1  .pul{
+    background-color: rgb(32,41,64);
+}
+div .btnmenu:hover {
+  color: white;
+  background-color: rgb(32,41,64);
+  border: solid 1px white;
+}
+div .btnmenu{
+  background-color: rgb(32,41,64);
+  border: solid 1px white;
+  color: white;
+}
+div .btnmenu:focus{
+    background-color: rgb(27,33,54);
+    border: solid 1px white;
+}
+.btnmenu span{
+background-color: white;
+  color: white;
+}
+#navcol-1 ul{background-color: transparent;}

@@ -1,0 +1,31 @@
+@media (min-width: 768px) {
+  .menubas-text{display: inline-block;}
+  .menubas-icones{display: none;}
+  .containerp{position: relative; top:60px;}
+  .containerp1{margin-right:5% ;margin-left: 5%;}
+  .containerp2{min-width: 460px; position: relative; background-color: rgb(32,41,64);color: white;  padding-top: 20px; border-radius: 20px 20px 0px 0px; box-shadow: 0 16px 26px -10px rgba(3,41,64, 0.56), 0 4px 25px 0px rgba(3,41,64, 0.12), 0 8px 10px -5px rgba(3,41,64, 0.2);}
+ }
+@media (max-width: 768px) {
+.menubas-text{display: none;}
+.menubas-icones{display: inline-block;}
+.containerp{position: relative; top:60px; margin-bottom: 60px;}
+.containerp1{}
+.containerp2{min-width: 460px; position: relative; background-color: rgb(32,41,64);color: white;  padding-top: 20px; border-radius: 20px 20px 0px 0px; box-shadow: 0 16px 26px -10px rgba(3,41,64, 0.56), 0 4px 25px 0px rgba(3,41,64, 0.12), 0 8px 10px -5px rgba(3,41,64, 0.2);}
+}
+.menubas > li > a:hover {
+  color: white;
+  background-color: rgb(32,41,64);
+}
+.menubas a{
+  background-color: rgb(32,41,64);
+  color: rgb(115,149,163);
+}
+.menubas > li > a:focus{
+    background-color: rgb(27,33,54);
+  box-shadow: 0 16px 26px -10px rgba(27,33,54, 0.56), 0 4px 25px 0px rgba(27,33,54, 0.12), 0 8px 10px -5px rgba(0,128,192, 0.2);
+}
+.affichage{ color: white; }
+.affichage:hover{ color: blue; }
+.table-striped>tbody>tr:nth-of-type(odd){background-color:#484848}
+.table-hover>tbody>tr:hover{background-color:#484848}
+.table>thead>tr>th{border-bottom-color:#ffffff}
